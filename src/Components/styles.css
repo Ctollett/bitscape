@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .synth-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .synth-controls {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    max-width: 800px;
+  }
+  
+  h2 {
+    color: #55aaff;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #55aaff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #4488cc;
+  }
+  
+  /* Input Sliders */
+  input[type="range"] {
+    width: 100%;
+    margin-top: 5px;
+  }
+  
+  /* Dropdown Selects */
+  select {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    background-color: #333;
+    color: #ccc;
+    border-radius: 5px;
+    appearance: none;
+  }
+  
+  /* Envelope Controls */
+  .envelope-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .envelope-controls h3 {
+    font-size: 18px;
+    color: #55aaff;
+    margin-bottom: 10px;
+  }
+  
+  /* Keyboard Display */
+  .keyboard-display {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Note Octave Display */
+  .note-octave {
+    font-size: 16px;
+    color: #55aaff;
+  }
+  
+  /* Waveform Visualizer */
+  .visualizer {
+    margin-top: 20px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Loading Message */
+  .loading-message {
+    font-size: 20px;
+    color: #ccc;
+    margin-top: 20px;
+  }
+  
+  /* MIDI Input Message */
+  .midi-input-message {
+    font-size: 14px;
+    color: #55aaff;
+    margin-top: 10px;
+  }
+  
